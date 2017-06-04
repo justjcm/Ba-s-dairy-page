@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>The secret life of Ba</title>
+<link rel="stylesheet" type="text/css" href="./初始化.css">
+<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+	<header>
+		<h1>小八的日常</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="">Info</a></li>
+			<li><a href="">Photos</a></li>
+			<li><a href="">Dairy</a></li>
+			<li><a href="">Playground</a></li>
+		</ul>
+		<form action="">
+
+			<input type="button" name="search" value="find">
+			<input type="text" placeholder="search..." value="">
+		</form>
+	</nav>
+	<div id="main">
+		<div id="lside">
+			<aside id="info">
+				<img src="./头像.jpg" style="width:109px;height:110px;">
+				<ul>
+					<li>昵称：小八</li>
+					<li>生日：2017/3/5</li>
+					<li>性别：萌妹子</li>
+					<li>星座：双鱼座</li>
+				</ul>
+			</aside>
+			<aside id="pho">
+				<img src="">
+				<img src="">
+				<img src="">
+				<img src="">
+			</aside>
+		</div>
+		<div id="rside">
+			<aside class="article">
+				<h2><a href="">2017.4.23——来到新家</a></h2>
+				<p>第一天</p>
+			</aside>
+			<aside class="article">
+				<h2><a href="">2017.5.1——第一次去兽医</a></h2>
+				<p>感冒了</p>
+			</aside>
+			<div id="more">
+				<p><a href="">see more...</a></p>
+			</div>
+		</div>
+	</div>
+	<footer>&copy;2017 justjcm</footer>
+</body>
+</html>
